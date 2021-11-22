@@ -1,11 +1,19 @@
 export function validateEmail(email) {
-  const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  const re = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
   return re.test(String(email).toLowerCase());
 }
 
-export function checkPassword(input) {
-  const passw = /^[A-Za-z]\w{7,14}$/;
-  if (input.match(passw)) {
+export function checkContactName(input) {
+  const name = /^[A-Za-z]\w{1,56}$/;
+  if (input.match(name)) {
+    return true;
+  }
+  return false;
+}
+
+export function checkMessage(input) {
+  const message = /^[A-Za-z]\w{1,500}$/;
+  if (input.match(message)) {
     return true;
   }
   return false;
