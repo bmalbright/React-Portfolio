@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+https://stackoverflow.com/questions/40834908/how-to-link-image-in-react-js-using-source/40835103
+
+https://mdbootstrap.com/docs/standard/extended/social-media/#!
+
+https://react-bootstrap.github.io/getting-started/introduction
