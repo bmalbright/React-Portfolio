@@ -1,9 +1,10 @@
 import React from 'react';
+import logo from "../images/icon-180.png"
 
 export default function Home() {
   return (
     <div>
-      <img src="./images/icon-180.png" alt="logo" rel="apple-touch-icon"></img>
+      <img className="img-responsive" src={logo} alt="logo"/>
       <h1>Brian Albright</h1>
       
       <p>
