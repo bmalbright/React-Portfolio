@@ -1,13 +1,22 @@
 import React from 'react';
-import logo from "../images/icon-180.png"
+import logo from "./images/icon-76.png"
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div class="header">
-      <img className="img-responsive" src={logo} alt="logo"/>
-      <h1>Brian Albright</h1>
+    <div>
+      <Row>
+        <Col sm="auto">
+          <img className="img-responsive" src={logo} alt="logo"/>
+        </Col>
+        <Col sm="auto">
+          <h1>Brian Albright</h1>
+        </Col>
+      </Row>
+
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
