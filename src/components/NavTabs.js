@@ -1,9 +1,13 @@
 import React from 'react';
+import logo from "../images/icon-180.png"
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div class="header">
+      <img className="img-responsive" src={logo} alt="logo"/>
+      <h1>Brian Albright</h1>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -47,6 +51,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 
