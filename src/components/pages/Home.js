@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <div>
       <Container>
+        <Col>
         <Row>
           <Col>
             <Card>
@@ -48,6 +49,7 @@ export default function Home() {
             running events, and operations.
           </p>
         </Row>
+        </Col>
       </Container>
     </div>
   );

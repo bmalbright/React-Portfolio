@@ -1,10 +1,15 @@
+
+
 .portfolio {
+  height: 100%;
   text-align: center;
   background-color: #030A8C;
   color: white
 }
 
 .header {
+  flex-direction: row;
+  align-items: center;
   color: #F2F2F2;
   background-color: #020873;
   font-family: bookman;

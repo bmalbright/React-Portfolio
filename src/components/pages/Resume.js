@@ -1,8 +1,10 @@
 import React from 'react';
+import Col from "react-bootstrap/Col";
 
 export default function Blog() {
   return (
     <div>
+      <Col>
       <h1>Resume</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
@@ -19,6 +21,7 @@ export default function Blog() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
+      </Col>
     </div>
   );
 }
