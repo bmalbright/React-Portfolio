@@ -76,3 +76,6 @@ https://stackoverflow.com/questions/40834908/how-to-link-image-in-react-js-using
 https://mdbootstrap.com/docs/standard/extended/social-media/#!
 
 https://react-bootstrap.github.io/getting-started/introduction
+
+<!-- keeping footer at bottom -->
+freecodecamp

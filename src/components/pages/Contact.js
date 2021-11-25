@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import '../css/style.css';
+import '../css/contact.css';
+import Form from 'react-bootstrap/Form'
+import Row from 'react-bootstrap/Row'
 
 // Here we import a helper function that will check if the email is valid
 import { validateEmail, checkContactName, checkMessage } from '../../utils/helpers';
 
-function Form() {
+function ContactForm() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
@@ -65,7 +67,8 @@ function Form() {
   return (
     <div>
       <p>Hello {contactName}</p>
-      <form className="form">
+      <Form className="form">
+        <Row>
         <input
           value={email}
           name="email"
@@ -73,6 +76,8 @@ function Form() {
           type="email"
           placeholder="email"
         />
+        </Row>
+        <Row>
         <input
           value={contactName}
           name="contactName"
@@ -80,6 +85,8 @@ function Form() {
           type="text"
           placeholder="Name"
         />
+        </Row>
+        <Row>
         <textarea
           value={message}
           name="message"
@@ -87,8 +94,11 @@ function Form() {
           type="text"
           placeholder="Message"
         > {message} </textarea>
+        </Row>
+        <Row>
         <button type="button" onClick={handleFormSubmit}>Submit</button>
-      </form>
+        </Row>
+      </Form>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
@@ -98,4 +108,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default ContactForm;

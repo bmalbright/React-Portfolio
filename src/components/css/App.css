@@ -1,5 +1,20 @@
-body {
+.portfolio {
   text-align: center;
+  background-color: #030A8C;
+  color: white
+}
+
+.header {
+  color: #F2F2F2;
+  background-color: #020873;
+}
+
+.nav {
+  background-color: #F2F2F2;
+}
+
+.footer {
+  background-color: #F2F2F2;
 }
 
 .App-logo {
