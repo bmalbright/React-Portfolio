@@ -12,13 +12,29 @@ export default function Home() {
         <Row>
           <Col>
             <Card>
-              <Card.Body class="profile">
+              <Card.Body className="profile">
                 <Card.Img variant="top" src={Albright} />
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <h3>Full Stack Web Developer</h3>
+            <Row>
+            <Col>
+            <ul>
+              <li>Javascript</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+            </ul>
+            </Col>
+            <Col>
+            <ul>
+              <li>HTML</li>
+              <li>React</li>
+              <li>Node</li>
+            </ul>
+            </Col>
+            </Row>
           </Col>
         </Row>
 

@@ -9,7 +9,7 @@ import "./css/App.css";
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div>
-      <div class="header">
+      <div className="header">
         <Row>
           <Col>
             <img className="img-responsive" src={logo} alt="logo" />
@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </Col>
         </Row>
       </div>
-      <div class="nav">
+      <div className="nav">
         <ul className="nav nav-tabs">
           <li className="nav-item">
             <a

@@ -17,6 +17,19 @@
   background-color: #F2F2F2;
 }
 
+.ProjectCard {
+  margin-top: 5rem;
+}
+
+.ProjectCard1{
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.ProjectTitle {
+  color: #27418C;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -50,4 +63,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
