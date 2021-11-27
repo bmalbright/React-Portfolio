@@ -66,7 +66,7 @@ function ContactForm() {
 
   return (
     <div>
-      <p>Hello {contactName}</p>
+      <h3 className="title">Hello {contactName}</h3>
       <Form className="form">
         <Row>
         <input

@@ -19,7 +19,7 @@ export default function Home() {
             </Card>
           </Col>
           <Col>
-            <h3>Full Stack Web Developer</h3>
+            <h3 className="title">Full Stack Web Developer</h3>
             <Row>
             <Col>
             <ul>

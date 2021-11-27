@@ -77,5 +77,5 @@ https://mdbootstrap.com/docs/standard/extended/social-media/#!
 
 https://react-bootstrap.github.io/getting-started/introduction
 
-<!-- keeping footer at bottom -->
-freecodecamp
+<!-- media query -->
+https://stackblitz.com/edit/react-cu8xqj?file=src/App.js

@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -13,7 +14,7 @@ import BudgetTracker from "../images/budgetTracker.png";
 export default function Portfolio() {
   return (
         <div>
-          <h1>Portfolio</h1>
+          <h1 className="title">Portfolio</h1>
           <Container>
             <Row>
               <Col>

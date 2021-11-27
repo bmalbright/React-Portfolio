@@ -6,6 +6,10 @@
   background-color: #030A8C;
   color: white
 }
+ 
+.title {
+  font-family: bookman;
+}
 
 .header {
   flex-direction: row;

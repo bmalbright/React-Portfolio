@@ -1,11 +1,12 @@
 import React from 'react';
+import '../css/App.css';
 import Col from "react-bootstrap/Col";
 
 export default function Blog() {
   return (
     <div>
       <Col>
-      <h1>Resume</h1>
+      <h1 className="title">Resume</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
