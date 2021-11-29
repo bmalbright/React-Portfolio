@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <div>
       <Container>
-        <Col>
         <Row>
           <Col>
             <Card>
@@ -21,20 +20,22 @@ export default function Home() {
           <Col>
             <h3 className="title">Full Stack Web Developer</h3>
             <Row>
-            <Col>
-            <ul>
-              <li>Javascript</li>
-              <li>Express</li>
-              <li>MongoDB</li>
-            </ul>
-            </Col>
-            <Col>
-            <ul>
-              <li>HTML</li>
-              <li>React</li>
-              <li>Node</li>
-            </ul>
-            </Col>
+              <Col>
+                <ul>
+                  <li>Javascript</li>
+                  <li>Express</li>
+                  <li>MongoDB</li>
+                  <li>jQuery</li>
+                </ul>
+              </Col>
+              <Col>
+                <ul>
+                  <li>React</li>
+                  <li>HTML</li>
+                  <li>Node</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </Col>
             </Row>
           </Col>
         </Row>
@@ -49,7 +50,6 @@ export default function Home() {
             running events, and operations.
           </p>
         </Row>
-        </Col>
       </Container>
     </div>
   );
