@@ -8,6 +8,7 @@
  
 .title {
   font-family: bookman;
+  margin-top: 10px;
 }
 
 .header {
@@ -25,6 +26,15 @@
 
 .home {
   min-height: 80vh;
+}
+
+.profile {
+  margin-top: 15px;
+}
+
+.paragraph {
+  margin-top: 30px;
+  font-size: 150%;
 }
 
 .ProjectCard {
@@ -45,8 +55,8 @@
   min-height: 65vh;
 }
 
-.buttonBorder {
-
+.button {
+margin-top: 30vh;
 }
 
 .contact {
@@ -72,7 +82,7 @@
 .form button {
   margin-top: 25px;
   margin-bottom: 15px;
-  background-color: #25A6D9;
+  background-color: lemonchiffon;
 }
 
 

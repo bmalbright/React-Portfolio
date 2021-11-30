@@ -11,12 +11,27 @@ export default function Home() {
       <Container>
         <Row>
           <Col>
-            <Card>
-              <Card.Body className="profile">
+            <Card className="profile">
+              <Card.Body >
                 <Card.Img variant="top" src={Albright} />
               </Card.Body>
             </Card>
           </Col>
+          <Col>
+          <p className="paragraph">
+            Brian Albright is a full stack web developer based in Texas. 
+            Before getting into web development, he spent over 30 years in the
+            aquatics industry, working in both aquatic safety and competitive
+            swimming. He has extensive experience in management, teaching,
+            running events, and operations. When not at his computer, he can 
+            be found at the park walking his dogs. 
+          </p>
+          </Col>
+ 
+        </Row>
+
+        <Row>
+
           <Col>
             <h3 className="title">Full Stack Web Developer</h3>
             <Row>
@@ -38,17 +53,7 @@ export default function Home() {
               </Col>
             </Row>
           </Col>
-        </Row>
 
-        <Row>
-          <p>
-            Brian Albright is a full stack web developer based in Texas. He
-            works with Javascript, React, MongoDB, Express, Node, HTML, and CSS.
-            Before getting into web development, he spent over 30 years in the
-            aquatics industry, working in both aquatic safety and competitive
-            swimming. He has extensive experience in management, teaching,
-            running events, and operations.
-          </p>
         </Row>
       </Container>
     </div>
