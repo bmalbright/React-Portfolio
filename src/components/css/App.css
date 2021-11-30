@@ -20,10 +20,11 @@
 
 .nav {
   background-color: #F2F2F2;
+  font-family: bookman;
 }
 
-.footer {
-  background-color: #25A6D9;
+.home {
+  min-height: 80vh;
 }
 
 .ProjectCard {
@@ -37,7 +38,56 @@
 
 .ProjectTitle {
   color: #27418C;
+  font-family: bookman;
 }
+
+.resume {
+  min-height: 65vh;
+}
+
+.buttonBorder {
+
+}
+
+.contact {
+  min-height: 70vh;
+}
+
+.form {
+  margin: 40px;
+}
+
+.form input {
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form textarea {
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.form button {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  background-color: #25A6D9;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: #25A6D9;
+}
+
+
 
 
 

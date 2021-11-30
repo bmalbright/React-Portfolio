@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/contact.css";
+import "../css/App.css";
 import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -65,18 +65,17 @@ function ContactForm() {
   };
 
   return (
-    <div>
+    <div className="contact">
       <Col>
         <h3 className="title">Hello {contactName}</h3>
         <Form className="form">
           <Row>
-
             <input
               value={email}
               name="email"
               onChange={handleInputChange}
               type="email"
-              placeholder="email"
+              placeholder="Email"
             />
           </Row>
           <Row>

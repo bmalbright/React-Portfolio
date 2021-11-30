@@ -7,7 +7,7 @@ import Albright from "../images/Albright.jpg";
 
 export default function Home() {
   return (
-    <div>
+    <div className="home">
       <Container>
         <Row>
           <Col>
