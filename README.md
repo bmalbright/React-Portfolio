@@ -8,6 +8,8 @@
 
 [The project is deployed here](https://brianalbright.netlify.app/#home)
 
+![screenshot](screencapture-reactportfolio.png)
+
 
 
 https://stackoverflow.com/questions/40834908/how-to-link-image-in-react-js-using-source/40835103
