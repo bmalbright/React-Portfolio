@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/App.css";
-import logo from "./images/icon-76.png";
 import twitter from "./images/twitter-icon.png";
 import linkedin from "./images/linkedin-icon.png";
 import github from "./images/github-icon.png";
