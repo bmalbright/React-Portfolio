@@ -1,9 +1,0 @@
-{
-    "window.title": "${activeEditorShort}${separator}${rootName} ${separator} [Branch: main]",
-    "cSpell.words": [
-        "freecodecamp",
-        "leveragewo",
-        "noopener",
-        "noreferrer"
-    ]
-}
