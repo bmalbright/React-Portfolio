@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./images/icon-76.png";
+// import logo from "./images/icon-76.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./css/App.css";
