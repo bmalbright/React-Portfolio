@@ -12,13 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <div className="header">
         <Row>
           <Col>
-            <img className="img-responsive" src={logo} alt="logo" />
-          </Col>
-          <Col>
             <h1>Brian Albright</h1>
-          </Col>
-          <Col>
-            <img className="img-responsive" src={logo} alt="logo" />
           </Col>
         </Row>
       </div>
