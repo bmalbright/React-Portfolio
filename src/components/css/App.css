@@ -63,26 +63,19 @@ margin-top: 30vh;
   min-height: 70vh;
 }
 
-.form {
-  margin: 40px;
-}
-
-.form input {
-  display: block;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  width: 100%;
-}
-
-.form textarea {
+.clickToEmail {
   margin-top: 25px;
   margin-bottom: 15px;
 }
 
-.form button {
+.emailInfo {
   margin-top: 25px;
   margin-bottom: 15px;
-  background-color: lemonchiffon;
+}
+
+.phoneInfo {
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
 
 
