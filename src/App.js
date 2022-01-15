@@ -10,7 +10,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 import "./css/App.css";
-import { className } from 'postcss-selector-parser';
 
 
 function App() {
