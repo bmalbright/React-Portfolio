@@ -1,6 +1,14 @@
-import React from "react";
-import { Row, Col } from "react-bootstrap";
+import React from 'react';
+import {
+
+  Col,
+  Row,
+
+} from 'react-bootstrap';
+
 import Logo from "../images/ondeck-icon-180.png";
+
+import "../css/App.css";
 
 export default function Home() {
   return (
@@ -11,7 +19,7 @@ export default function Home() {
       
           <Col className="profile">
 
-          <img className="img-responsive" src={Logo} alt="email" />
+          <img className="img-responsive" src={Logo} alt="logo" />
 
           </Col>
         

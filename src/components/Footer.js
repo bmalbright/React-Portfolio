@@ -1,11 +1,11 @@
 import React from "react";
-import "./css/App.css";
-import twitter from "./images/twitter-icon.png";
-import linkedin from "./images/linkedin-icon.png";
-import github from "./images/github-icon.png";
-import email from "./images/email-icon.png";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import "../css/App.css";
+import twitter from "../images/twitter-icon.png";
+import linkedin from "../images/linkedin-icon.png";
+import github from "../images/github-icon.png";
+import email from "../images/email-icon.png";
+import { Row, Col } from "react-bootstrap";
+
 
 function Footer() {
   return (

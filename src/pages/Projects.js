@@ -1,9 +1,11 @@
 import React from 'react';
 import '../css/App.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
+import { 
+ Container,
+ Row,
+ Col,
+ Card } 
+from 'react-bootstrap';
 import leverage from "../images/project2leveragewo2.png";
 import cryptoCosmos from "../images/project1CryptoCosmos.png";
 import Scheduler from "../images/scheduler.png";
