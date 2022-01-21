@@ -9,7 +9,7 @@ import { Row, Col } from "react-bootstrap";
 
 function Footer() {
   return (
-    <div class="footer">
+    <div className="footer">
       <Row>
         <Col>
         <a href="mailto:brian@ondeckconsulting.net">
@@ -18,7 +18,7 @@ function Footer() {
         </Col>
         <Col>
           <a
-            href="https://www.linkedin.com/in/brian-albright-95017533"
+            href="https://www.linkedin.com/in/albright-brian"
             target="_blank"
             rel="noopener noreferrer"
           >
