@@ -24,12 +24,13 @@ export default function Portfolio() {
                 <Card className="ProjectCard">
                   <Card.Body>
                     <Card.Title className="ProjectTitle">Jester: fun challenge social media app</Card.Title>
-                        <Card.Img variant="top" src={jester} />
+                        <Card.Img variant="top" src={Jester} />
                       <Card.Link href="https://jester2.herokuapp.com/" target="_blank">View</Card.Link>
                       <Card.Link href="https://github.com/bmalbright/Jester2.0" target="_blank">Repo</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
+              </Row>
             <Row>
               <Col>
                 <Card className="ProjectCard">
