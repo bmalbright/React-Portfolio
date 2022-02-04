@@ -12,12 +12,24 @@ import Scheduler from "../images/scheduler.png";
 import TeamProfile from "../images/teamProfile.png";
 import FitnessTracker from "../images/fitnessTracker.png";
 import BudgetTracker from "../images/budgetTracker.png";
+import Jester from "../images/jester.png"
 
 export default function Portfolio() {
   return (
         <div>
           <h1 className="title">Portfolio</h1>
           <Container>
+          <Row>
+              <Col>
+                <Card className="ProjectCard">
+                  <Card.Body>
+                    <Card.Title className="ProjectTitle">Jester: fun challenge social media app</Card.Title>
+                        <Card.Img variant="top" src={jester} />
+                      <Card.Link href="https://jester2.herokuapp.com/" target="_blank">View</Card.Link>
+                      <Card.Link href="https://github.com/bmalbright/Jester2.0" target="_blank">Repo</Card.Link>
+                  </Card.Body>
+                </Card>
+              </Col>
             <Row>
               <Col>
                 <Card className="ProjectCard">
