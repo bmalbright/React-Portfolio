@@ -8,10 +8,10 @@ import {
 from 'react-bootstrap';
 import leverage from "../images/project2leveragewo2.png";
 import cryptoCosmos from "../images/project1CryptoCosmos.png";
-import Scheduler from "../images/scheduler.png";
+// import Scheduler from "../images/scheduler.png";
 import TeamProfile from "../images/teamProfile.png";
 import FitnessTracker from "../images/fitnessTracker.png";
-import BudgetTracker from "../images/budgetTracker.png";
+// import BudgetTracker from "../images/budgetTracker.png";
 import Jester from "../images/jester.png"
 
 export default function Portfolio() {
