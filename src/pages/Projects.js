@@ -8,10 +8,10 @@ import {
 from 'react-bootstrap';
 import leverage from "../images/project2leveragewo2.png";
 import cryptoCosmos from "../images/project1CryptoCosmos.png";
-// import Scheduler from "../images/scheduler.png";
+import Scheduler from "../images/scheduler.png";
 import TeamProfile from "../images/teamProfile.png";
 import FitnessTracker from "../images/fitnessTracker.png";
-// import BudgetTracker from "../images/budgetTracker.png";
+import BudgetTracker from "../images/budgetTracker.png";
 import Jester from "../images/jester.png"
 
 export default function Portfolio() {
@@ -58,7 +58,7 @@ export default function Portfolio() {
             </Row>
 
             <Row>
-              {/* <Col>
+              <Col>
                 <Card className="ProjectCard1">
                   <Card.Body>
                     <Card.Title className="ProjectTitle">Work Day Scheduler: a simple app for planning your day</Card.Title>
@@ -67,7 +67,7 @@ export default function Portfolio() {
                       <Card.Link href="https://bmalbright.github.io/homework-5/" target="_blank">Repo</Card.Link>
                   </Card.Body>
                 </Card>
-              </Col> */}
+              </Col>
               <Col>
                 <Card className="ProjectCard1">
                   <Card.Body>
@@ -91,7 +91,7 @@ export default function Portfolio() {
                   </Card.Body>
                 </Card>
               </Col>
-              {/* <Col>
+              <Col>
                 <Card className="ProjectCard1">
                   <Card.Body>
                     <Card.Title className="ProjectTitle">Budget Tracker: an app that tracks your spending and income</Card.Title>
@@ -100,7 +100,7 @@ export default function Portfolio() {
                       <Card.Link href="https://github.com/bmalbright/homework-19" target="_blank">Repo</Card.Link>
                   </Card.Body>
                 </Card>
-              </Col> */}
+              </Col>
             </Row>
           </Container>
 
