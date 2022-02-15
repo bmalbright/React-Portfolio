@@ -48,7 +48,7 @@ export default function Home() {
           </Col>
         </Row>
         </div>
-        <Row>
+        {/* <Row>
           <Col>
             <h3 className="title">Full Stack Web Developer</h3>
             <Row>
@@ -72,7 +72,7 @@ export default function Home() {
               </Col>
             </Row>
           </Col>
-        </Row>
+        </Row> */}
 
     </div>
   );
