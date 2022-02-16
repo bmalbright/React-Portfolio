@@ -17,7 +17,7 @@ import Jester from "../images/jester.png"
 export default function Portfolio() {
   return (
         <div>
-          <h1 className="title">Portfolio</h1>
+          <h1 className="title">Projects</h1>
           <Container>
           <Row>
               <Col>
@@ -78,9 +78,6 @@ export default function Portfolio() {
                   </Card.Body>
                 </Card>
               </Col>
-            {/* </Row>
-
-            <Row> */}
               <Col>
                 <Card className="ProjectCard1">
                   <Card.Body>

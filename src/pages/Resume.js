@@ -8,7 +8,7 @@ import Javascript from "../images/TechIcons/javascript.png";
 import CSS from "../images/TechIcons/css.png";
 import ReactIcon from "../images/TechIcons/react.png";
 import Node from "../images/TechIcons/node.png";
-import MongoDB from "../images/TechIcons/mongodb.png";
+import MongoDB from "../images/TechIcons/mongodb1.png";
 import GraphQL from "../images/TechIcons/graphql.png";
 import MySQL from "../images/TechIcons/mysql.png";
 import JQuery from "../images/TechIcons/jquery.png";
