@@ -26,7 +26,7 @@ function SendEmail() {
         <div className="emailInfo">
           <Row>
             <Col>
-              <text>Click the icon to email Brian at:</text>
+              <text>Email me!</text>
             </Col>
           </Row>
           <Row>
@@ -38,7 +38,7 @@ function SendEmail() {
         <div className="phoneInfo">
           <Row>
             <Col>
-              <text>Call Brian:</text>
+              <text>Or call me.</text>
             </Col>
           </Row>
           <Row>

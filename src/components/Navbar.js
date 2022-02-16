@@ -8,6 +8,8 @@ import {
 
 import "../css/App.css";
 
+import Logo from "../images/ondeck-icon.png";
+
 const AppNavbar = () => {
  
   return (
@@ -15,6 +17,7 @@ const AppNavbar = () => {
       <Navbar expand='lg' className="header">
         <Container fluid >
           <Navbar.Brand as={Link} to='/'>
+          <img className="img-responsive" src={Logo} alt="logo" />
             Brian Albright
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbar' />
