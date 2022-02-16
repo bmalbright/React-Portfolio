@@ -7,7 +7,7 @@ import {
 
 } from 'react-bootstrap';
 
-import Logo from "../images/ondeck-icon-180.png";
+// import Logo from "../images/ondeck-icon-180.png";
 
 import "../css/App.css";
 
