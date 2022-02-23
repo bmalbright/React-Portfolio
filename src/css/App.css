@@ -73,7 +73,7 @@ align-content: center;
 }
 
 .contact {
-  min-height: 70vh;
+  min-height: 100vh;
 }
 
 .clickToEmail {
@@ -81,14 +81,16 @@ align-content: center;
   margin-bottom: 15px;
 }
 
-.emailInfo {
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
+
 
 .phoneInfo {
   margin-top: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
+}
+
+.mediaIcons {
+  margin-top: 25px;
+  padding-bottom: 25px;
 }
 
 .footer {

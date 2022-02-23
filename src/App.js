@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 import "./css/App.css";
 
@@ -24,7 +24,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
             <Route render={() => <h1 className="display-2">Wrong page!</h1>} />
           </Switch>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
   );
