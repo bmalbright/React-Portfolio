@@ -26,6 +26,20 @@
   min-height: 80vh;
 }
 
+.bio {
+  background-color: #25a6d9;
+}
+
+.biopic {
+  margin-left: 55px;
+  margin-right: 55px;
+  background-color: #25a6d9;
+}
+
+/* .intro {
+ 
+} */
+
 .profile {
   margin-top: 25px;
 }
@@ -36,10 +50,13 @@
   margin-left: 55px;
   margin-right: 55px;
   font-size: 150%;
-
+  text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.fiona {
+  max-height: px;
+}
 .ProjectCard {
   margin-top: 5rem;
 }
