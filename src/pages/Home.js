@@ -66,6 +66,8 @@ export default function Home() {
           </Card>
         </Col>
       </Row>
+      <br/>
+      <br/>
       </div>
     </div>
   );
