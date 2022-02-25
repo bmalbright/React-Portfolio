@@ -24,9 +24,9 @@ export default function Home() {
               <h1 className="intro"> Hi, I'm Brian</h1>
               <p className="paragraph">
                 I am a full stack web developer with a management background
-                looking to build a more intuitive experience for the user. A
-                recent graduate earning a certificate in full stack web
-                development from the University of Texas at Austin where I
+                looking to build a more intuitive experience for the user. As
+                recent graduate earning a certificate in Full Stack Web
+                Development from the University of Texas at Austin, I
                 developed skills using HTML, CSS, Javascript, React, MySQL,
                 MongoDB, Node, and Express. 
                 

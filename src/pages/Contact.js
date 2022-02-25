@@ -6,7 +6,7 @@ import {
   Col,
 } from "react-bootstrap";
 
-import email from "../images/email-icon-76.png";
+import email from "../images/email-icon.png";
 import phone from "../images/phone-icon.png";
 import twitter from "../images/twitter-icon.png";
 import linkedin from "../images/linkedin-icon.png";

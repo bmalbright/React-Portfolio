@@ -33,7 +33,7 @@ export default function Portfolio() {
               </Row>
             <Row>
               <Col>
-                <Card className="ProjectCard">
+                <Card className="ProjectCard1">
                   <Card.Body>
                     <Card.Title className="ProjectTitle">Leverage: a workout building app</Card.Title>
                         <Card.Img variant="top" src={leverage} />
@@ -42,11 +42,9 @@ export default function Portfolio() {
                   </Card.Body>
                 </Card>
               </Col>
-            {/* </Row>
 
-            <Row> */}
               <Col>
-                <Card className="ProjectCard">
+                <Card className="ProjectCard1">
                   <Card.Body>
                     <Card.Title className="ProjectTitle">Crypto Cosmos: a crypto currency information app</Card.Title>
                         <Card.Img variant="top" src={cryptoCosmos} />
@@ -56,20 +54,22 @@ export default function Portfolio() {
                 </Card>
               </Col>
             </Row>
+            </Container>
 
+            <Container>
             <Row>
               <Col>
-                <Card className="ProjectCard1">
+                <Card className="ProjectCard2">
                   <Card.Body>
                     <Card.Title className="ProjectTitle">Work Day Scheduler: a simple app for planning your day</Card.Title>
                         <Card.Img variant="top" src={Scheduler} />
-                      <Card.Link href="https://bmalbright.github.io/homework-5/" target="_blank">View</Card.Link>
+                      <Card.Link href="https://bmalbright.github.io/homework-5/" target="_blank">App</Card.Link>
                       <Card.Link href="https://bmalbright.github.io/homework-5/" target="_blank">Repo</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
               <Col>
-                <Card className="ProjectCard1">
+                <Card className="ProjectCard2">
                   <Card.Body>
                     <Card.Title className="ProjectTitle">Fitness Tracker: an app to track the workouts you've done</Card.Title>
                         <Card.Img variant="top" src={FitnessTracker} />
@@ -79,7 +79,7 @@ export default function Portfolio() {
                 </Card>
               </Col>
               <Col>
-                <Card className="ProjectCard1">
+                <Card className="ProjectCard2">
                   <Card.Body>
                     <Card.Title className="ProjectTitle">Team Profile Generator: a command line team profile building app</Card.Title>
                         <Card.Img variant="top" src={TeamProfile} />
@@ -89,7 +89,7 @@ export default function Portfolio() {
                 </Card>
               </Col>
               <Col>
-                <Card className="ProjectCard1">
+                <Card className="ProjectCard2">
                   <Card.Body>
                     <Card.Title className="ProjectTitle">Budget Tracker: an app that tracks your spending and income</Card.Title>
                         <Card.Img variant="top" src={BudgetTracker} />
@@ -100,6 +100,8 @@ export default function Portfolio() {
               </Col>
             </Row>
           </Container>
+          <br/>
+          <br/>
 
         </div>
   );
