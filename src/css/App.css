@@ -35,10 +35,6 @@
   background-color: #25a6d9;
 }
 
-/* .intro {
- 
-} */
-
 .profile {
   margin-top: 25px;
 }
@@ -54,7 +50,8 @@
 }
 
 .fiona {
-  max-height: px;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 /* these classes are for the projects page */
 
