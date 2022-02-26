@@ -99,8 +99,14 @@ height: 80%;
 .button {
   margin-top: 5vh;
   margin-bottom: 5vh;
+  height: 150px;
   background-color: #030abc;
   color: white;
+  border-radius: 50%;
+}
+
+.button:hover {
+  background: red;
 }
 
 /* these classes are for the contact page */

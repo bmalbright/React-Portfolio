@@ -16,6 +16,7 @@ import Bootstrap from "../images/TechIcons/bootstrap.png";
 import Handlebars from "../images/TechIcons/handlebars.png";
 import JSON from "../images/TechIcons/json.png";
 
+
 export default function Resume() {
   return (
     <div className="resume">
@@ -109,6 +110,7 @@ export default function Resume() {
         <Row>
         <Col>
           <div className="buttonBorder">
+
             <a
               href="https://docs.google.com/document/d/1bIePAKEDjqNSyCack9ZmcJy_sbAqZW13g80xQq4kGuk/edit?usp=sharing"
               target="_blank"
@@ -116,6 +118,7 @@ export default function Resume() {
             >
               <button className="button">Click here for my resume</button>
             </a>
+            
           </div>
         </Col>
         </Row>
