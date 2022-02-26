@@ -107,7 +107,8 @@ height: 80%;
 }
 
 .button:hover {
-  background: red;
+  background: white;
+  color: #030abc;
 }
 
 /* these classes are for the contact page */
