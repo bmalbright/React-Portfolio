@@ -27,7 +27,7 @@ export default function Resume() {
                             target="_blank"
                             rel=" noopener noreferrer"
               >
-                <img className="img-responsive" src={HTML} alt="react icon" />
+                <img className="img-responsive icon" src={HTML} alt="react icon" />
               </a>
             </div>
           </Col>
@@ -38,7 +38,7 @@ export default function Resume() {
                             rel=" noopener noreferrer"
               >
                 <img
-                  className="img-responsive"
+                  className="img-responsive icon"
                   src={Javascript}
                   alt="react icon"
                 />
@@ -52,7 +52,7 @@ export default function Resume() {
                             rel=" noopener noreferrer"
               >
                 <img
-                  className="img-responsive"
+                  className="img-responsive icon"
                   src={CSS}
                   alt="react icon"
                 />
@@ -69,7 +69,7 @@ export default function Resume() {
                             target="_blank"
                             rel=" noopener noreferrer"
               >
-                <img className="img-responsive" src={ReactIcon} alt="react icon" />
+                <img className="img-responsive icon" src={ReactIcon} alt="react icon" />
               </a>
             </div>
           </Col>
@@ -80,7 +80,7 @@ export default function Resume() {
                             rel=" noopener noreferrer"
               >
                 <img
-                  className="img-responsive"
+                  className="img-responsive icon"
                   src={Node}
                   alt="react icon"
                 />
@@ -95,7 +95,7 @@ export default function Resume() {
                             rel=" noopener noreferrer"
               >
                 <img
-                  className="img-responsive"
+                  className="img-responsive icon"
                   src={JQuery}
                   alt="react icon"
                 />
@@ -128,7 +128,7 @@ export default function Resume() {
                             rel=" noopener noreferrer"
               >
                 <img
-                  className="img-responsive"
+                  className="img-responsive icon"
                   src={MongoDB}
                   alt="react icon"
                 />
@@ -142,7 +142,7 @@ export default function Resume() {
                             rel=" noopener noreferrer"
               >
                 <img
-                  className="img-responsive"
+                  className="img-responsive icon"
                   src={GraphQL}
                   alt="react icon"
                 />
@@ -157,7 +157,7 @@ export default function Resume() {
                             rel=" noopener noreferrer"
               >
                 <img
-                  className="img-responsive"
+                  className="img-responsive icon"
                   src={MySQL}
                   alt="react icon"
                 />
@@ -173,7 +173,7 @@ export default function Resume() {
                             target="_blank"
                             rel=" noopener noreferrer"
               >
-                <img className="img-responsive" src={Bootstrap} alt="react icon" />
+                <img className="img-responsive icon" src={Bootstrap} alt="react icon" />
               </a>
             </div>
           </Col>
@@ -183,7 +183,7 @@ export default function Resume() {
                             target="_blank"
                             rel=" noopener noreferrer"
               >
-                <img className="img-responsive" src={JSON} alt="react icon" />
+                <img className="img-responsive icon" src={JSON} alt="react icon" />
               </a>
             </div>
           </Col>
@@ -193,7 +193,7 @@ export default function Resume() {
                             target="_blank"
                             rel=" noopener noreferrer"
               >
-                <img className="img-responsive" src={Handlebars} alt="react icon" />
+                <img className="img-responsive icon" src={Handlebars} alt="react icon" />
               </a>
             </div>
           </Col>

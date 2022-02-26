@@ -84,12 +84,16 @@ height: 80%;
 
 /* these classes are for the resume page */
 .resume {
-  min-height: 80vh;
+  min-height: 90vh;
   align-items: center;
 }
 
 .techIcon {
   padding: 15%;
+}
+
+.img-responsive.icon:hover {
+  background: white;
 }
 
 .button {
