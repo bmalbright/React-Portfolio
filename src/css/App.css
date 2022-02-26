@@ -7,7 +7,7 @@
   color: white;
 }
 
-
+/* this is the styling for the navbar */
 
 .header {
   color: #020873;
@@ -16,10 +16,10 @@
   padding: 1rem;
 }
 
-.nav {
+/* .nav {
   background-color: #f2f2f2;
   font-family: bookman;
-}
+} */
 
 .home {
   min-height: 80vh;
@@ -27,12 +27,13 @@
 
 .bio {
   background-color: #25a6d9;
+  border: transparent;
 }
 
 .biopic {
   margin-left: 55px;
   margin-right: 55px;
-  background-color: #25a6d9;
+  /* background-color: #25a6d9; */
 }
 
 .profile {
@@ -40,7 +41,7 @@
 }
 
 .paragraph {
-  background-color: #25a6d9;
+  /* background-color: #25a6d9; */
   margin-top: 30px;
   margin-left: 55px;
   margin-right: 55px;
