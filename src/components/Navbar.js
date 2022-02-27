@@ -18,7 +18,6 @@ const AppNavbar = () => {
         <Container fluid >
           <Navbar.Brand as={Link} to='/'>
           <img className="img-responsive" src={Logo} alt="logo" />
-            Brian Albright
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar'>

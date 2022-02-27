@@ -11,7 +11,7 @@ export default function Home() {
       <Row>
         <Col className="profile">
           <Card className="biopic">
-            <img className="img-responsive" src={Biopic} alt="Biopic" />
+            <img className="img-fluid" src={Biopic} alt="Biopic" />
           </Card>
         </Col>
       </Row>
