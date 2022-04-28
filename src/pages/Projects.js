@@ -7,7 +7,7 @@ import {
  Card } 
 from 'react-bootstrap';
 import leverage from "../images/project2leveragewo2.png";
-import cryptoCosmos from "../images/project1CryptoCosmos.png";
+import rogue from "../images/rogueinreact.png";
 import Scheduler from "../images/scheduler.png";
 import TeamProfile from "../images/teamProfile.png";
 import FitnessTracker from "../images/fitnessTracker.png";
@@ -46,10 +46,10 @@ export default function Portfolio() {
               <Col>
                 <Card className="ProjectCard1">
                   <Card.Body>
-                    <Card.Title className="ProjectTitle">Crypto Cosmos: a crypto currency information app</Card.Title>
-                        <Card.Img variant="top" src={cryptoCosmos} />
-                      <Card.Link href="https://cole-cochran.github.io/crypto-cosmos/" target="_blank">View</Card.Link>
-                      <Card.Link href="https://github.com/bmalbright/crypto-cosmos" target="_blank">Repo</Card.Link>
+                    <Card.Title className="ProjectTitle">Rogue in React: a rogue like game built using React</Card.Title>
+                        <Card.Img variant="top" src={rogue} />
+                      <Card.Link href="https://rogueinreact.netlify.app/" target="_blank">View</Card.Link>
+                      <Card.Link href="https://github.com/bmalbright/rogue-game" target="_blank">Repo</Card.Link>
                   </Card.Body>
                 </Card>
               </Col>
