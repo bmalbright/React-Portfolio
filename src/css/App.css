@@ -99,12 +99,13 @@ height: 80%;
 
 .img-responsive.icon:hover {
   background: white;
+  transform: scale(1.5);
 }
 
 .button {
   margin-top: 5vh;
   margin-bottom: 5vh;
-  height: 150px;
+  height: 200px;
   background-color: #030abc;
   color: white;
   border-radius: 50%;
