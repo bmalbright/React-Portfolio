@@ -8,9 +8,11 @@ export default function Home() {
 <div class="bg"></div>
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
+{/* text div container */}
 <div class="content">
   <h1>Welcome to my portfolio</h1>
 </div>
+{/* end of text  */}
 </Container>
   )
 }

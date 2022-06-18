@@ -21,7 +21,6 @@ function SendEmail() {
         <div className="clickToEmail">
           <Row>
             <Col>
-              <p>Click the icon to email me.</p>
               <a href="mailto:brian@ondeckconsulting.net">
                 <img className="img-responsive" src={email} alt="email" />
               </a>
@@ -33,7 +32,6 @@ function SendEmail() {
         <div className="phoneInfo">
           <Row>
             <Col>
-              <p>Click the icon to call me.</p>
               <a href="tel:5126586799">
                 <img className="img-responsive" src={phone} alt="phone" />
               </a>
@@ -83,3 +81,10 @@ function SendEmail() {
 }
 
 export default SendEmail;
+
+
+
+//  ******************
+// This is the original code with the form included. 
+// ********************
+
