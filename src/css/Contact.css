@@ -1,0 +1,14 @@
+form {
+    min-height: 90vh;
+    padding-top: 20px;
+  }
+  input {
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    height:10em;
+    width: 600px;
+  }
