@@ -10,7 +10,7 @@ export default function Home() {
 <div class="bg bg3"></div>
 {/* text div container */}
 <div class="content">
-  <h1>Welcome to my portfolio</h1>
+  <h1>Welcome to Brian's portfolio</h1>
 </div>
 {/* end of text  */}
 </Container>

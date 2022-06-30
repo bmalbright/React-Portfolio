@@ -9,10 +9,10 @@
 
 [The repo for our bootcamp with the starter code I used is here](https://github.com/bmalbright/UTA-VIRT-FSF-FT-09-2021-U-LOL)
 
+The animation I used on the opening page is something I modified from code I found on CodePen via a background and animations article. The CopePen page is [here](https://codepen.io/chris22smith/pen/RZogMa)
 
 
-
-[The project is deployed here](https://brianalbright.netlify.app/#home)
+[The project is deployed here](https://brianalbright.netlify.app/)
 
 ![screenshot](screencapture-reactportfolio.png)
 
