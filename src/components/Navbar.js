@@ -19,10 +19,10 @@ const AppNavbar = () => {
           <Navbar.Brand as={Link} to='/'>
           <img className="img-responsive" src={Logo} alt="logo" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls='navbar' />
+          <Navbar.Toggle aria-controls='navbar'/>
           <Navbar.Collapse id='navbar'>
-            <Nav className='ml-auto'>
-              <Nav.Link as={Link} to='about'>
+            <Nav className='ms-auto'>
+              <Nav.Link as={Link} to='about' className='navlink'>
                 About Me
               </Nav.Link>
                 
