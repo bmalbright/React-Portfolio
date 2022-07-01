@@ -5,11 +5,11 @@ import  { Container } from 'react-bootstrap';
 export default function Home() {
   return (
 <Container>
-<div class="bg"></div>
-<div class="bg bg2"></div>
-<div class="bg bg3"></div>
+<div className="bg"></div>
+<div className="bg bg2"></div>
+<div className="bg bg3"></div>
 {/* text div container */}
-<div class="content">
+<div className="content">
   <h1>Welcome to Brian's portfolio</h1>
 </div>
 {/* end of text  */}

@@ -1,22 +1,11 @@
-.contact {
-  min-height: 100vh;
+form {
+  min-height: 90vh;
+}
+input {
+  width: 500px;
 }
 
-.clickToEmail {
-  margin-top: 25px;
-  margin-bottom: 15px;
-}
-
-.phoneInfo {
-  margin-top: 25px;
-  margin-bottom: 45px;
-}
-
-.mediaIcons {
-  margin-top: 25px;
-  padding-bottom: 25px;
-}
-
-.footer {
-  background-color: #25a6d9;
+textarea {
+  height:10em;
+  width: 500px;
 }

@@ -22,7 +22,7 @@ const AppNavbar = () => {
           <Navbar.Toggle aria-controls='navbar'/>
           <Navbar.Collapse id='navbar'>
             <Nav className='ms-auto'>
-              <Nav.Link as={Link} to='about' className='navlink'>
+              <Nav.Link as={Link} to='about'>
                 About Me
               </Nav.Link>
                 
