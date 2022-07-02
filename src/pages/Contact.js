@@ -1,47 +1,93 @@
-import React from 'react'
-import {useRef} from 'react'
-import * as emailjs from 'emailjs-com'
+import React from 'react';
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import "../css/Contact.css";
-import { Form } from 'react-bootstrap'
+import { Container, Form, Row, Col, Button } from 'react-bootstrap';
+import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider';
 
-export default function Contact() {
-  const form = useRef();
+export default function Contact({ setAlertContent, setShowAlert }) {
+
+
+  const [formData, setFormData] = useState({
+    email: '',
+    name: '',
+    message: ''
+  });
+
+  const handleChange = (e) => setFormData({ ...formData, [e.target.id]: e.target.value });
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'ondeck', form.current, 'fHz8eSOe3PWpUmrey')
+    emailjs.send(
+      process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      formData, 
+      process.env.REACT_APP_EMAILJS_USER_ID
+    )
       .then((result) => {
-          console.log(result.text);
+        setFormData({
+          email: '',
+          name: '',
+          message: ''
+        })
+        setAlertContent({
+          heading: 'Thank you for contacting me.',
+          message: 'I will replay to your message as soon as I can.'
+        })
+        setShowAlert(true)
       }, (error) => {
-          console.log(error.text);
+        setAlertContent({ heading: "Something went wrong.", message: error.text })
       });
   };
 
-  return (
-    <Form ref={form} onSubmit={Contact}>
 
-      <input 
-      type="text" 
-      name="name" 
-      className='name'
-      placeholder='Name'
-      required/>
-      <br/>
-      <input 
-      type="email" 
-      name="email" 
-      className='email'
-      placeholder='Email Address'
-      required/>
-      <br/>
-      <textarea 
-      name="message" 
-      className='message'
-      placeholder='Message'
-      required/>
-      <br/>
-      <input type="submit" value="Send" />
-    </Form>
+  return (
+    <Container className='p-4 border border-dark rounded'>
+      <Form>
+        <h1> Contact Me </h1>
+        <Row>
+          <Form.Group controlId='name'>
+            <Form.Control
+              type="text"
+              placeholder='Name'
+              onChange={handleChange}
+              value={formData.name}
+            />
+          </Form.Group>
+        </Row>
+        <Row>
+          <Form.Group controlId='email'>
+            <Form.Control
+              type="email"
+              placeholder='Email Address'
+              onChange={handleChange}
+              value={formData.email}
+            />
+          </Form.Group>
+        </Row>
+        <Row>
+          <Form.Group controlId='message'>
+            <Form.Control
+              as='textarea'
+              placeholder='Message'
+              onChange={handleChange}
+              value={formData.message}
+            />
+          </Form.Group>
+        </Row>
+        <Row>
+          <Button
+            type='submit'
+            onClick={e => sendEmail(e)}
+          >
+            Submit
+          </Button>
+        </Row>
+
+
+
+      </Form>
+    </Container>
   );
-}
+};

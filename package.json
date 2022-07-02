@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3000",
@@ -18,7 +18,7 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --max-http-header-size=1024 start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

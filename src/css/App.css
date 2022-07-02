@@ -14,12 +14,13 @@
   background-color: #ffffff;
   font-family: bookman;
   padding: 1rem;
+  justify-content: space-between;
 }
 
-/* .nav {
-  background-color: #f2f2f2;
+/* .navlink {
+  color: #020873;
   font-family: bookman;
-} */
+}  */
 
 .home {
   min-height: 80vh;
