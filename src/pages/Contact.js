@@ -1,9 +1,11 @@
 import React from 'react';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import {init} from '@emailjs/browser';
 import "../css/Contact.css";
 import { Container, Form, Row, Col, Button } from 'react-bootstrap';
-import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider';
+init('REACT_APP_EMAILJS_USER_ID');
+
 
 export default function Contact({ setAlertContent, setShowAlert }) {
 
