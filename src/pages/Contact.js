@@ -2,8 +2,9 @@ import React from 'react';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import {init} from '@emailjs/browser';
-import "../css/Contact.css";
+import "../css/App.css";
 import { Container, Form, Row, Col, Button } from 'react-bootstrap';
+import linkedIn from "../images/linkedin-icon.png";
 init('REACT_APP_EMAILJS_USER_ID');
 
 
@@ -45,11 +46,13 @@ export default function Contact({ setAlertContent, setShowAlert }) {
 
 
   return (
-    <Container className='p-4 border border-dark rounded'>
-      <Form>
-        <h1> Contact Me </h1>
+    <div className='contact'>
+    <Container>
+      <Form className='contactForm'>
+        <h1 className='contactMe'> Contact Me </h1>
         <Row>
-          <Form.Group controlId='name'>
+          <Form.Group controlId='name' className='mb-4'>
+          <Form.Label>Name</Form.Label>
             <Form.Control
               type="text"
               placeholder='Name'
@@ -59,7 +62,8 @@ export default function Contact({ setAlertContent, setShowAlert }) {
           </Form.Group>
         </Row>
         <Row>
-          <Form.Group controlId='email'>
+          <Form.Group controlId='email' className="mb-4">
+          <Form.Label>Email address</Form.Label>
             <Form.Control
               type="email"
               placeholder='Email Address'
@@ -69,7 +73,8 @@ export default function Contact({ setAlertContent, setShowAlert }) {
           </Form.Group>
         </Row>
         <Row>
-          <Form.Group controlId='message'>
+          <Form.Group controlId='message' className="mb-4">
+          <Form.Label>Message</Form.Label>
             <Form.Control
               as='textarea'
               placeholder='Message'
@@ -79,17 +84,33 @@ export default function Contact({ setAlertContent, setShowAlert }) {
           </Form.Group>
         </Row>
         <Row>
+          <Col>
           <Button
             type='submit'
+            variant='primary'
             onClick={e => sendEmail(e)}
+            className='contactButton'
           >
             Submit
           </Button>
+          </Col>
         </Row>
-
-
-
       </Form>
+      <br/>
+      <br/>
+      <Row className="mediaIcons">
+            <Col>
+            <h2> Find me on LinkedIn</h2>
+              <a
+                href="https://www.linkedin.com/in/albright-brian"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img className="img-responsive" src={linkedIn} alt="linkedin" />
+              </a>
+            </Col>
+          </Row>
     </Container>
+    </div>
   );
 };

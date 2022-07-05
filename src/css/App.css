@@ -122,18 +122,27 @@ height: 80%;
   min-height: 100vh;
 }
 
-.clickToEmail {
-  margin-top: 25px;
-  margin-bottom: 15px;
+.contactMe {
+  padding-top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.phoneInfo {
-  margin-top: 25px;
-  margin-bottom: 45px;
+
+.contactButton {
+width: 40%;
+box-shadow: 0px, 20px, 20px, 0px, red;
+color: #ffffff;
+background-color: #020873;
 }
+
+contactButton:hover {
+  background-color: #25A6D9;
+  color: #ffffff;
+}
+
+
 
 .mediaIcons {
   margin-top: 25px;
   padding-bottom: 25px;
 }
-
